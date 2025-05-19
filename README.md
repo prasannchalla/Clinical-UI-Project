@@ -29,7 +29,6 @@ This project is a Python-based desktop GUI application built with **Tkinter**, d
 
 ## Folder Layout
 
-bash
 ```
 clinical-ui-project/
 ├── data/                         # Input CSVs: Credentials.csv, Patient_data.csv, Notes.csv
