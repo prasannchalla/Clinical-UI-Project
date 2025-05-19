@@ -105,3 +105,9 @@ pip install -r requirements.txt
 ### UML Diagram
 
 Please refer to `UML_diagram.png` for class relationships and overall structure.
+
+## Project Repository
+
+You can view the full project on GitHub:  
+🔗 [Clinical-UI-Project](https://github.com/prasannchalla/Clinical-UI-Project)
+
