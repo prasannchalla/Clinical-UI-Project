@@ -27,7 +27,7 @@ This project is a Python-based desktop GUI application built with **Tkinter**, d
 
 ---
 
-## Folder Layout
+## Project Structure
 
 ```
 clinical-ui-project/
