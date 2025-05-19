@@ -28,3 +28,30 @@ This project is a Python-based desktop GUI application built with **Tkinter**, d
 ---
 
 ## Folder Layout
+
+bash
+```
+clinical-ui-project/
+├── data/                         # Input CSVs: Credentials.csv, Patient_data.csv, Notes.csv
+│   ├── Credentials.csv
+│   ├── Patient_data.csv
+│   └── Notes.csv
+├── output/                       # Output files and generated visuals
+│   ├── usage_log.csv
+│   └── statistics.png
+├── src/                          # Python source code
+│   ├── main.py
+│   ├── ui_app.py
+│   ├── user.py
+│   ├── patient.py
+│   ├── validator.py
+│   ├── visit.py
+│   ├── patient_record_manager.py
+│   ├── health_professional.py
+│   ├── manager.py
+│   ├── admin.py
+│   └── utils.py
+├── UML_diagram.png               # UML diagram image
+├── README.md
+└── requirements.txt
+```
