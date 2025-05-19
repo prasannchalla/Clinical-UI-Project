@@ -54,3 +54,54 @@ clinical-ui-project/
 ├── README.md
 └── requirements.txt
 ```
+### How to Run
+
+1. Set up the environment
+
+   Open a terminal and install the required dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+2. Ensure the following directories and CSV files exist:
+```
+- `data/Credentials.csv`
+- `data/Patient_data.csv`
+- `data/Notes.csv`
+- Create an empty `output/` directory if it doesn’t exist
+```
+3. Run the application
+
+From the root directory of the project, run:
+```
+python src/main.py
+```
+### Requirements
+
+Install the dependencies using pip:
+```
+pip install -r requirements.txt
+```
+### Major Dependencies
+
+```
+- `pandas`
+- `matplotlib`
+- `tkinter` (usually included with Python)
+- `numpy`
+- `pillow`
+- `csv`
+- `os`, `datetime`, `random`, `re` (standard Python libraries)
+```
+### Developer Notes
+
+- The project follows a modular design using object-oriented programming principles.
+- Key classes include: `User`, `Patient`, `Visit`, `PatientRecordManager`, `HealthProfessional`, `Manager`, `Validator`, `Admin`, and `App` (GUI controller in `ui.py`).
+- Logic is cleanly separated into modules to enhance readability, maintainability, and future extensibility.
+- GUI and backend logic are decoupled, making it easier to add new features or update existing ones.
+- Each user action is handled with appropriate error handling to provide user feedback and ensure robust logging.
+
+### UML Diagram
+
+Please refer to `UML_diagram.png` for class relationships and overall structure.
